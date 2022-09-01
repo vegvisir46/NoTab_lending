@@ -1,0 +1,62 @@
+.wrapper {
+  width: 600px;
+  min-height: 300px;
+  background-color: gray;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-line img {
+  min-width: 210px;
+  min-height: 160px;
+  background-color: gray;
+}
+.slider-line {
+  height: 160px;
+  width: 840px;
+  background-color: goldenrod;
+  display: flex;
+  position: relative;
+}
+.slider {
+  width: 210px;
+  height: 160px;
+  border: 2px solid black;
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 0 0 10px black;
+}
+.slider-indicator {
+  display: flex;
+  justify-content: center;
+}
+.indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: rgb(229, 179, 13);
+}
+.btn-next,
+.btn-prev {
+  width: 50px;
+  height: 30px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(184, 184, 184);
+  background-color: rgb(229, 179, 13);
+}
+.btn-next:hover,
+.btn-prev:hover,
+.indicator:hover {
+  background-color: rgb(182, 143, 15);
+}
+.btn-next:active,
+.btn-prev:active,
+.indicator:active {
+  background-color: rgb(138, 110, 16);
+}
+.active {
+  background-color: rgb(209, 93, 16);
+}

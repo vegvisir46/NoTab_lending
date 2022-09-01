@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/slider-styles.css" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <button class="btn-prev"><</button>
+      <div class="slider-wrapper">
+        <div class="slider">
+          <div class="slider-line">
+            <img
+              class="slide first-slide"
+              src="./images/slider-img/karlson.jpeg"
+              alt="slide1"
+            />
+            <img
+              class="slide"
+              src="./images/slider-img/mouse.jpeg"
+              alt="slide2"
+            />
+            <img
+              class="slide"
+              src="./images/slider-img/volk.jpeg"
+              alt="slide3"
+            />
+            <img
+              class="slide"
+              src="./images/slider-img/pirat.jpeg"
+              alt="slide4"
+            />
+            <img
+              class="slide"
+              src="./images/slider-img/krot.jpeg"
+              alt="slide5"
+            />
+            <img
+              class="slide"
+              src="./images/slider-img/chebur.webp"
+              alt="slide6"
+            />
+            <img
+              class="slide"
+              src="./images/slider-img/ejik.jpeg"
+              alt="slide7"
+            />
+            <img
+              class="slide"
+              src="./images/slider-img/hockey.jpeg"
+              alt="slide8"
+            />
+            <img
+              class="slide"
+              src="./images/slider-img/kot.webp"
+              alt="slide9"
+            />
+            <img
+              class="slide"
+              src="./images/slider-img/popugay.jpeg"
+              alt="slide10"
+            />
+          </div>
+        </div>
+        <div class="slider-indicator">
+          <div class="indicator active" onclick="activateIndicator(0)"></div>
+          <div class="indicator" onclick="activateIndicator(1)"></div>
+          <div class="indicator" onclick="activateIndicator(2)"></div>
+          <div class="indicator" onclick="activateIndicator(3)"></div>
+          <div class="indicator" onclick="activateIndicator(4)"></div>
+          <div class="indicator" onclick="activateIndicator(5)"></div>
+          <div class="indicator" onclick="activateIndicator(6)"></div>
+          <div class="indicator" onclick="activateIndicator(7)"></div>
+          <div class="indicator" onclick="activateIndicator(8)"></div>
+          <div class="indicator" onclick="activateIndicator(9)"></div>
+        </div>
+      </div>
+
+      <button class="btn-next">></button>
+    </div>
+    <script src="./js/slider.js"></script>
+  </body>
+</html>

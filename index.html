@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans:regular,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Landing</title>
+  </head>
+  <!--  -->
+  <body>
+    <div class="header">
+      <div class="container header__container">
+        <div class="header__logo-block">
+          <picture>
+            <source srcset="./images/Landing-img/cube.webp" type="image/webp" />
+            <img
+              src="./images/Landing-img/cube.png"
+              alt="logo-image"
+              class="header__logo"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/Landing-img/NoTab.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/Landing-img/NoTab.png"
+              class="header__logo-name"
+            />
+          </picture>
+        </div>
+        <div class="login__block">
+          <img
+            src="./images/Landing-img/loginImg.svg"
+            alt="loginIcon"
+            class="header__login-img"
+          />
+          <a href="#login-form" class="header__login">Login</a>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <main class="main">
+      <div class="main__tittle-and-phone-section container">
+        <div class="main__left-text-block">
+          <h1>
+            A platform<br />
+            that works smarter
+          </h1>
+          <div class="main__line-and-paragr">
+            <picture>
+              <source
+                srcset="./images/Landing-img/Ellipse93.webp"
+                type="image/webp"
+              />
+              <img
+                class="ellipse"
+                src="./images/Landing-img/Ellipse93.png"
+                alt="ellipse-img"
+              />
+            </picture>
+            <img
+              class="line-img"
+              src="./images/Landing-img/Line1.svg"
+              alt="line-img"
+            />
+            <p>
+              NoTab allows bars & nightclubs to manage, understand, and grow
+              their business from a single dashboard
+            </p>
+          </div>
+        </div>
+        <div class="main__right-image-block">
+          <img
+            class="purple-vector"
+            src="./images/Landing-img/Vector3.svg"
+            alt="vector-img"
+          />
+          <picture>
+            <source
+              srcset="./images/Landing-img/iPhoneXimage.webp"
+              type="image/webp"
+            />
+            <img
+              class="iphone-purple-fon"
+              src="./images/Landing-img/iPhoneXimage.png"
+              alt="iphone-image"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="main__tittle-and-phone-section-footer">
+        <h2 class="main__tittle-and-phone-section-footer-h2">
+          DOWNLOAD OUR APP
+        </h2>
+        <div class="footer-images">
+          <picture>
+            <source
+              srcset="./images/Landing-img/apple.webp"
+              type="image/webp"
+            />
+            <img
+              class="apple-image"
+              src="./images/Landing-img/apple.jpg"
+              alt="apple-img"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/Landing-img/gplay.webp"
+              type="image/webp"
+            />
+            <img
+              class="gplay-image"
+              src="./images/Landing-img/gplay.png"
+              alt="gplay-img"
+            />
+          </picture>
+        </div>
+      </div>
+      <div id="cookies" class="main__cookies">
+        <p>
+          We use cookie to improve your experience on our site. By using our
+          site you consent cookies.
+        </p>
+        <button id="closedCookies" onclick="closedCookies()">OK</button>
+      </div>
+      <!--  -->
+      <div class="main__ourmission-section container">
+        <div class="main__ourmission-section-2cards">
+          <div class="main__ourmission-card1">
+            <h3>Would like to become a member, please contact us</h3>
+            <a href="mailto:support@notab.com">support@notab.com</a>
+          </div>
+          <div class="main__ourmission-card2">
+            <h3>Already a partner?</h3>
+            <a href="#login-form">Login</a>
+          </div>
+        </div>
+      </div>
+      <div class="main__ourmission-section-image-and-tittle">
+        <picture>
+          <source
+            srcset="./images/Landing-img/iPhoneXimage1_2.webp"
+            type="image/webp"
+          />
+          <img
+            src="./images/Landing-img/iPhoneXimage1_2.png"
+            class="main__ourmission-section-image1-2"
+          />
+        </picture>
+        <div class="main__ourmission-section-tittle">
+          <picture>
+            <source
+              srcset="./images/Landing-img/Ellipse2sl.webp"
+              type="image/webp"
+            />
+            <img
+              class="ellipse-2sl"
+              src="./images/Landing-img/Ellipse2sl.png"
+              alt="ellipse"
+            />
+          </picture>
+          <h2>Our mission and vision</h2>
+          <p>
+            While technology is our sweet spot, we’ve developed our vision
+            alongside our customers to ensure your everyday problems are solved
+            through simplistic tools. And as your business grows, we’ll grow
+            right alongside with you.
+          </p>
+        </div>
+        <picture>
+          <source
+            srcset="./images/Landing-img/iPhoneXimagesm.webp"
+            type="image/webp"
+          />
+          <img
+            src="./images/Landing-img/iPhoneXimagesm.png"
+            class="main__ourmission-section-image1"
+          />
+        </picture>
+      </div>
+      <!--  -->
+      <div class="main__id-scaner-section">
+        <div class="main__id-scaner-2-image-and-tittle">
+          <picture>
+            <source
+              srcset="./images/Landing-img/iPhoneXimageqrleft.webp"
+              type="image/webp"
+            />
+            <img
+              class="main__id-scaner-2-image-left"
+              src="./images/Landing-img/iPhoneXimageqrleft.jpg"
+              alt="iphone-img-left"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/Landing-img/iPhoneXimage-right.webp"
+              type="image/webp"
+            />
+            <img
+              class="main__id-scaner-2-image-right"
+              src="./images/Landing-img/iPhoneXimage-right.png"
+              alt="iphone-img-right"
+            />
+          </picture>
+          <div class="main__id-scaner-tittle">
+            <h2>ID Scanner</h2>
+            <p>
+              Scan, verify, and collect data on each person that walks through
+              your door to humanize your data. You also get a digital 86 list as
+              well as a citywide ban list to keep your venue safe.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="main__graphics-section container">
+        <div class="main__graphics-tittle">
+          <h2>BI Tool Integration</h2>
+          <p>
+            We use Business Intelligence Tool that allows you to be updated what
+            is happening in your business just by one click. Track revenue and
+            profit by one click.
+          </p>
+        </div>
+        <div class="main__graphics-graphics">
+          <picture>
+            <source
+              srcset="./images/Landing-img/graphic-grey.webp"
+              type="image/webp"
+            />
+            <img
+              class="graphics-grey"
+              src="./images/Landing-img/graphic-grey.png"
+              alt="graphic"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/Landing-img/bubble-graphic.webp"
+              type="image/webp"
+            />
+            <img
+              class="graphics-bubble"
+              src="./images/Landing-img/bubble-graphic.png"
+              alt="graphic"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/Landing-img/bulb-graphic.webp"
+              type="image/webp"
+            />
+            <img
+              class="graphics-bulb"
+              src="./images/Landing-img/bulb-graphic.png"
+              alt="graphic"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/Landing-img/blue-mountains-graphic.webp"
+              type="image/webp"
+            />
+            <img
+              class="graphics-blue-mountains"
+              src="./images/Landing-img/blue-mountains-graphic.png"
+              alt="graphic"
+            />
+          </picture>
+          <picture>
+            <source srcset="./images/Landing-img/gr3.webp" type="image/webp" />
+            <img
+              class="graphics-vawe"
+              src="./images/Landing-img/gr3.svg"
+              alt="graphic"
+            />
+          </picture>
+          <picture>
+            <source srcset="./images/Landing-img/gr4.webp" type="image/webp" />
+            <img
+              class="graphics-acvalaizer"
+              src="./images/Landing-img/gr4.png"
+              alt="graphic"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/Landing-img/graf-loading.webp"
+              type="image/webp"
+            />
+            <img
+              class="graphics-loading"
+              src="./images/Landing-img/graf-loading.png"
+              alt="graphic"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="main__qr-section">
+        <div class="qr-tittle">
+          <h2>QR code</h2>
+          <p>
+            No more conflict situations due to wrong order. The guest selects
+            the positions, and after that an individual QR code of his order is
+            generated
+          </p>
+          <div class="qr-tittle-apple-and-gplay">
+            <picture>
+              <source
+                srcset="./images/Landing-img/apple.webp"
+                type="image/webp"
+              />
+              <img
+                class="apple-image"
+                src="./images/Landing-img/apple.jpg"
+                alt="apple-img"
+              />
+            </picture>
+            <picture>
+              <source
+                srcset="./images/Landing-img/gplay.webp"
+                type="image/webp"
+              />
+              <img
+                class="gplay-image"
+                src="./images/Landing-img/gplay.png"
+                alt="gplay-img"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="qr-glass-image">
+          <div class="qr-glass-iphones">
+            <picture>
+              <source
+                srcset="./images/Landing-img/Nightlife.webp"
+                type="image/webp"
+              />
+              <img
+                class="nighlife-image"
+                src="./images/Landing-img/Nightlife.png"
+                alt="nightlife-img"
+              />
+            </picture>
+            <picture>
+              <source
+                srcset="./images/Landing-img/glass.webp"
+                type="image/webp"
+              />
+              <img
+                class="glass-image"
+                src="./images/Landing-img/glass.png"
+                alt="glass-img"
+              />
+            </picture>
+          </div>
+          <picture>
+            <source
+              srcset="./images/Landing-img/iphone-left.webp"
+              type="image/webp"
+            />
+            <img
+              class="qr-left-phone"
+              src="./images/Landing-img/iphone-left.png"
+              alt="iphone-img"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/Landing-img/iphone-rightQR.webp"
+              type="image/webp"
+            />
+            <img
+              class="qr-right-phone"
+              src="./images/Landing-img/iphone-rightQR.png"
+              alt="iphone-img"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="main__scan-qr-code-section">
+        <div class="qr-scan-fon">
+          <picture>
+            <source
+              srcset="./images/Landing-img/NOTAB2.webp"
+              type="image/webp"
+            />
+            <img
+              class="qr-fon-notab1"
+              src="./images/Landing-img/NOTAB2.png"
+              alt="notab-logo"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/Landing-img/NOTAB2.webp"
+              type="image/webp"
+            />
+            <img
+              class="qr-fon-notab2"
+              src="./images/Landing-img/NOTAB2.png"
+              alt="notab-logo"
+            />
+          </picture>
+        </div>
+        <div class="qr-scan-fon2">
+          <picture>
+            <source
+              srcset="./images/Landing-img/NOTAB2.webp"
+              type="image/webp"
+            />
+            <img
+              class="qr-fon-notab3"
+              src="./images/Landing-img/NOTAB2.png"
+              alt="notab-logo"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/Landing-img/NOTAB2.webp"
+              type="image/webp"
+            />
+            <img
+              class="qr-fon-notab4"
+              src="./images/Landing-img/NOTAB2.png"
+              alt="notab-logo"
+            />
+          </picture>
+        </div>
+        <div class="qr-scan-tittle">
+          <picture class="iphone-shadow">
+            <source
+              srcset="./images/Landing-img/Rectangle1604.webp"
+              type="image/webp"
+            />
+            <img
+              class="iphone-shadow"
+              src="./images/Landing-img/Rectangle1604.png"
+              alt="shadow"
+            />
+          </picture>
+          <h2>Generate your QR-code</h2>
+          <picture class="qr-scan-iphone">
+            <source
+              srcset="./images/Landing-img/iPhoneXimage-qr-code.webp"
+              type="image/webp"
+            />
+            <img
+              class="iphone-min"
+              src="./images/Landing-img/iPhoneXimage-qr-code.png"
+              alt="iphone-img"
+            />
+          </picture>
+          <div class="qr-scan-arrow-and-text">
+            <img src="./images/Landing-img/Arrow1.png" alt="arrow-img" />
+            <p>Scan QR-code</p>
+          </div>
+          <p>
+            The guest QR code is scanned by the staff and automatically sent
+          </p>
+        </div>
+      </div>
+      <div class="main__easier-ordering-section">
+        <div class="easier-ordering-tittle">
+          <h2>Easier ordering. Happier guests.</h2>
+          <p>NoTab makes it simple for patrons to easily</p>
+        </div>
+        <div class="easier-ordering-image">
+          <div class="small-images">
+            <picture>
+              <source
+                srcset="./images/Landing-img/nomore.webp"
+                type="image/webp"
+              />
+              <img
+                class="nomore1-image"
+                src="./images/Landing-img/nomore.png"
+                alt="mini-text-img"
+              />
+            </picture>
+            <picture>
+              <source
+                srcset="./images/Landing-img/nomore2.webp"
+                type="image/webp"
+              />
+              <img
+                class="nomore2-image"
+                src="./images/Landing-img/nomore2.png"
+                alt="mini-text-img"
+              />
+            </picture>
+            <picture>
+              <source
+                srcset="./images/Landing-img/split.webp"
+                type="image/webp"
+              />
+              <img
+                class="split-image"
+                src="./images/Landing-img/split.png"
+                alt="mini-text-img"
+              />
+            </picture>
+            <picture>
+              <source
+                srcset="./images/Landing-img/skip.webp"
+                type="image/webp"
+              />
+              <img
+                class="skip-image"
+                src="./images/Landing-img/skip.png"
+                alt="mini-text-img"
+              />
+            </picture>
+          </div>
+          <picture>
+            <source
+              srcset="./images/Landing-img/iPhoneXSLongscrollMockup1.webp"
+              type="image/webp"
+            />
+            <img
+              class="big-iphone"
+              src="./images/Landing-img/iPhoneXSLongscrollMockup1.png"
+              alt="iphone-big-img"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="main__notab-big-image">
+        <picture>
+          <source
+            srcset="./images/Landing-img/notab-big-img.webp"
+            type="image/webp"
+          />
+          <img
+            class="notab-img"
+            src="./images/Landing-img/notab-big-img.png"
+            alt="notab-big-img"
+          />
+        </picture>
+      </div>
+      <div id="login-form" class="main__login-section container">
+        <h2>Get In Touch</h2>
+        <img
+          class="login-form-shadow-mini-top"
+          src="./images/Landing-img/Rectangle1649.png"
+          alt="shadow"
+        />
+        <p class="mini-p">
+          Have questions about Noble or just want to say hello?<br />
+          Drop us a line and a member of our team will getback to you shortly.
+        </p>
+        <form id="form" class="login-form" action="#">
+          <input
+            id="formName"
+            class="form-input-name required"
+            type="text"
+            placeholder="Name"
+          />
+          <input
+            id="formVenue"
+            class="form-input-venue required"
+            type="text"
+            placeholder="Venue"
+          />
+          <div class="login-form-city">
+            <input
+              id="formVenueCity"
+              class="form-input-venue-city required"
+              type="text"
+              placeholder="Venue city"
+            />
+            <input
+              id="formStateCity"
+              class="form-input-state-city required"
+              type="text"
+              placeholder="State city"
+            />
+          </div>
+          <input
+            id="formEmail"
+            class="form-input-email required email"
+            type="text"
+            placeholder="Email"
+          />
+          <input
+            id="formSubject"
+            class="form-input-subject required"
+            type="text"
+            placeholder="Subject"
+          />
+          <textarea
+            id="formMessage"
+            class="form-input-message required"
+            placeholder="Message"
+          ></textarea>
+          <button type="submit" class="login-form-button">SEND</button>
+        </form>
+        <img
+          class="login-form-shadow-mini-middle"
+          src="./images/Landing-img/Rectangle1649.png"
+          alt=""
+        />
+        <p class="big-p">DOWNLOAD OUR APP</p>
+        <div class="login-apple-and-glay">
+          <picture>
+            <source
+              srcset="./images/Landing-img/apple.webp"
+              type="image/webp"
+            />
+            <img
+              class="login-apple-img"
+              src="./images/Landing-img/apple.jpg"
+              alt="apple-img"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/Landing-img/gplay.webp"
+              type="image/webp"
+            />
+            <img
+              class="login-glay-img"
+              src="./images/Landing-img/gplay.png"
+              alt="gplay-img"
+            />
+          </picture>
+        </div>
+        <img
+          class="login-form-shadow-mini-bottom"
+          src="./images/Landing-img/Rectangle1649.png"
+          alt="shadow"
+        />
+      </div>
+    </main>
+    <footer class="footer container">
+      <div class="footer__left-bar">
+        <img
+          class="notab-footer-img"
+          src="./images/Landing-img/notab-footer.png"
+          alt="notab-logo"
+        />
+        <p class="footer-contacts">Contact us:</p>
+        <a class="footer-contacts-link" href="support@notab.com"
+          >support@notab.com</a
+        >
+        <p class="footer-2020-notab">© 2020 - NoTab®</p>
+      </div>
+      <div class="footer__right-bar">
+        <p>Terms to use</p>
+        <p class="footer-right-bar-privacy">Privacy policy</p>
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
